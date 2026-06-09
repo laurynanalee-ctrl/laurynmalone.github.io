@@ -606,6 +606,7 @@ header{
 }
 
 /* Reviews Section */
+
 .reviews-scroll {
   margin-top: 24px;
   padding-top: 20px;
@@ -664,4 +665,11 @@ header{
 
 .stars {
   color: #d6a21f;
+}
+
+.review-card {
+  flex: 0 0 320px;
+  max-width: 320px;
+  height: 450px;
+  overflow-y: auto;
 }
