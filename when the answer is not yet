@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>When the Answer Is Not Yet | Lauryn Malone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Inter:wght@400;500;600&family=Allura&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <div class="script">Lauryn Malone</div>
+      <div class="sub"> boy mom • author • educator </div>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn primary" href="contact.html">Invite me</a>
+  </div>
+</header>
+
+<main class="wrap">
+ <section class="wrap" style="margin-top:30px;">
+
+    <div class="card soft" style="margin-bottom:20px;">
+  <h2>When the Answer Is "Not Yet"</h2>
+  <p style="color:gray;">June 2026</p>
+
+<img src="not-yet.png" alt="Open Bible, journal, and laptop while waiting on God's timing"
+     style="display:block; margin:20px auto; width:60%; max-width:500px; border-radius:10px;">
+
+  <p>
+    I don't know about you, but I've discovered that some of the hardest prayers aren't the ones God answers with "no." They're the ones He answers with "not yet."
+  </p>
+
+  <p>
+    The waiting can be exhausting. You send the email and wait for a response. You submit the application and wait for a decision. You take the next step in faith and wait for the door to open. You pray, trust, hope, and then wait some more.
+  </p>
+
+  <p>
+    Lately, I've found myself in several "not yet" spaces. Not yet hearing back. Not yet seeing the provision. Not yet knowing exactly how God is going to connect all the pieces. If I'm honest, there have been moments when I've wondered if I've missed something. Moments when I've questioned whether I should be doing more, trying harder, or knocking on different doors.
+  </p>
+
+  <p>
+    What's interesting is that this season has also held moments of celebration. Recently, I received news that my book had received an award—something I never expected when I sat down to write about worship in ordinary places. It was a humbling reminder of God's faithfulness and a moment I'll always treasure. Yet even as I celebrated, many of the prayers I've been carrying remained unanswered.
+  </p>
+
+  <p>
+    That realization taught me something important: God's faithfulness isn't limited to one area of our lives at a time.
+  </p>
+
+  <p>
+    Sometimes we assume that if one prayer is answered, everything else should immediately fall into place. But life rarely works that way. We can be celebrating one blessing while still waiting on another. We can be thanking God for what He has done while still trusting Him for what He hasn't done yet.
+  </p>
+
+  <p>
+    The Lord has been reminding me of something simple: a delayed answer is not the same thing as a denied promise.
+  </p>
+
+  <p>
+    We often assume that because something hasn't happened, nothing is happening. Yet throughout Scripture, God was working long before His people could see it. Joseph couldn't see the palace from the prison. David couldn't see the throne from the pasture. Ruth couldn't see redemption while gathering leftovers in a field. In every story, God was arranging details behind the scenes while His people simply took the next faithful step.
+  </p>
+
+  <p>
+    Sometimes I think we focus so much on the destination that we miss what God is producing in us during the journey. We want the open door, but God is building endurance. We want the provision, but God is teaching dependence. We want certainty, but God is growing trust. The waiting season has a way of revealing where our confidence truly rests. Is it in a specific outcome, or is it in the God who holds every outcome in His hands?
+  </p>
+
+  <p>
+    The truth is, I would love quick answers. I'd love every email to be returned immediately, every prayer to be answered on my timeline, and every need to be met before I even have to ask. But that isn't usually how faith grows. Faith grows when we continue to obey even when we don't have all the information. Faith grows when we choose to trust God's character more than our circumstances. Faith grows when we keep moving forward despite the uncertainty.
+  </p>
+
+<p>
+  At first glance, that verse almost sounds contradictory. How can something linger and yet not be delayed? The answer is found in God's perspective. What feels delayed to us is often perfectly on time in His plan. We measure time by calendars, deadlines, and expectations. God measures it by purpose. The vision He gives, the promises He speaks, and the work He begins all have an appointed time. Not our time—His.
+</p>
+
+<p>
+  That doesn't mean every prayer will be answered exactly the way we hope. But it does mean that God is never scrambling to catch up with our lives. He is not surprised by closed doors, unanswered emails, financial needs, or uncertain seasons. While we wait, He is still working. While we wonder, He is still sovereign. And while we struggle to see what He's doing, He is faithfully accomplishing His purposes in ways we may not understand until much later.
+</p>
+
+  <p>
+    So if you find yourself in a "not yet" season today, take heart. Celebrate the blessings God has already given you, even as you continue to trust Him for the ones you're still waiting on. He has not forgotten your prayers. He has not overlooked your faithfulness. He has not misplaced the dreams He placed in your heart.
+  </p>
+
+  <p>
+    The story isn't over because the answer hasn't arrived. Sometimes God's greatest work happens in the space between the prayer and the provision. And if you're still waiting, perhaps He's still working.
+  </p>
+
+  <p>
+    Maybe the answer isn't "no."
+  </p>
+
+  <p>
+    Maybe it's simply "not yet." 🤍
+  </p>
+</div>
+
+  </section>
+<h3 style="margin-top:40px;">Leave a thought 🤍</h3>
+<p style="color:gray; margin-top:-10px;">
+  I’d love to hear what this stirred in you.
+</p>
+<script src="https://giscus.app/client.js"
+        data-repo="laurynanalee-ctrl/blog-comments"
+        data-repo-id="R_kgDOSBlKHQ"
+        data-category="General"
+        data-category-id="DIC_kwDOSBlKHc4C6wsq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</main>
