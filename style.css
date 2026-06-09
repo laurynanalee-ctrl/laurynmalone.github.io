@@ -648,3 +648,8 @@ header{
     transform: translateX(-50%);
   }
 }
+
+.reviews-scroll {
+  overflow: hidden;
+  animation: scrollReviews 60s linear infinite;
+}
