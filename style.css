@@ -929,3 +929,46 @@ blockquote {
     padding: 45px 24px;
   }
 }
+
+.image-banner {
+  margin: 40px auto 0;
+  border-radius: 22px 22px 0 0;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(74, 61, 53, 0.16);
+}
+
+.image-banner img {
+  width: 100%;
+  display: block;
+}
+
+.paper-body {
+  background: #fffaf2;
+  padding: 70px 55px;
+  position: relative;
+  border-radius: 0 0 22px 22px;
+  box-shadow: 0 24px 60px rgba(74, 61, 53, 0.16);
+}
+
+.paper-body::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #fffaf2;
+  clip-path: polygon(
+    0% 70%, 5% 55%, 10% 72%, 15% 58%, 20% 74%,
+    25% 53%, 30% 66%, 35% 56%, 40% 72%, 45% 54%,
+    50% 67%, 55% 56%, 60% 76%, 65% 58%, 70% 70%,
+    75% 55%, 80% 73%, 85% 57%, 90% 68%, 95% 54%,
+    100% 70%, 100% 100%, 0% 100%
+  );
+}
+
+@media (max-width: 700px) {
+  .paper-body {
+    padding: 45px 24px;
+  }
+}
