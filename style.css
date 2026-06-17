@@ -41,22 +41,13 @@ ul {
 
 /* TOP IMAGE HERO */
 
-.home-hero-top{
-  min-height:650px;
-}
-
+.home-hero-top {
+  min-height: 650px;
   background:
-    linear-gradient(
-      rgba(255,250,242,.05),
-      rgba(255,250,242,.05)
-    ),
-    url("banner.png");
-
+    linear-gradient(rgba(255,250,242,.04), rgba(255,250,242,.04)),
+    url("cozy-hero.png");
   background-size: cover;
-
-  /* CHANGE THIS */
   background-position: center center;
-
   background-repeat: no-repeat;
   position: relative;
 }
