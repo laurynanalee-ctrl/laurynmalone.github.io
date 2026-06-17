@@ -42,13 +42,25 @@ ul {
 /* TOP IMAGE HERO */
 
 .home-hero-top {
-  min-height: 650px;
+  height: 720px;   /* controls hero height */
+
   background:
-    linear-gradient(rgba(255,250,242,.04), rgba(255,250,242,.04)),
-    url("banner.png");
+    linear-gradient(
+      rgba(255,250,242,.04),
+      rgba(255,250,242,.04)
+    ),
+    url("/laurynmalone.github.io/banner.png");
+
   background-size: cover;
+
+  /* fills entire area */
   background-position: center center;
+
   background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+
   position: relative;
 }
 /* NAV ON IMAGE */
@@ -57,7 +69,6 @@ ul {
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
-  padding-top:60px;
 
   display: flex;
   align-items: flex-start;
@@ -430,7 +441,7 @@ footer {
       rgba(255,250,242,.15),
       rgba(255,250,242,.15)
     ),
-    url("lauryn.jpg");
+    url("cozy.png");
 
   background-size: cover;
   background-position: center;
