@@ -180,7 +180,7 @@ nav a:hover {
 
 .torn-paper-divider {
   height: 65px;
-  overflow: hidden;
+  overflow: overlap, transparent;
   background: #fffaf2;
   line-height: 0;
   margin-top: -65px;
