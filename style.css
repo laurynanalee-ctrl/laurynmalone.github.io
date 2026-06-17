@@ -718,3 +718,85 @@ footer {
     padding: 28px;
   }
 }
+
+/* BLOG PAGE */
+
+.blog-hero {
+  background:
+    linear-gradient(rgba(255,250,242,.12), rgba(255,250,242,.12)),
+    url("/laurynmalone.github.io/blog-banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.blog-list {
+  max-width: 950px;
+  margin: 60px auto 0;
+  display: grid;
+  gap: 28px;
+}
+
+.blog-preview-card {
+  background: rgba(255,250,242,.92);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 38px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.05);
+  text-align: left;
+}
+
+.featured-post {
+  border-left: 6px solid #617152;
+}
+
+.blog-category {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #617152;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blog-preview-card h2 {
+  font-family: "Fraunces", serif;
+  color: #3f4d39;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+
+.blog-date {
+  font-family: "Inter", sans-serif;
+  color: #8a7a6d;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+.blog-preview-card p {
+  font-family: "Fraunces", serif;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #3f342c;
+}
+
+.blog-preview-card .btn {
+  margin-top: 10px;
+}
+
+@media(max-width: 700px) {
+  .blog-preview-card {
+    padding: 28px;
+  }
+
+  .blog-preview-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .blog-preview-card p {
+    font-size: 17px;
+  }
+}
