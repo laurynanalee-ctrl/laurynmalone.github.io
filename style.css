@@ -65,20 +65,29 @@ ul {
 }
 /* NAV ON IMAGE */
 
-.hero-nav{
-  padding-top: 60px;
-}
+.hero-nav {
+  max-width: 1300px;
+  margin: 0 auto;
 
-.brand{
-  margin-top: 10px;
-}
+  padding-top: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
 
-.hero-nav nav{
-  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 80px;
 }
 
 .hero-nav .btn{
   margin-top: 10px;
+}
+
+.hero-nav nav ul {
+  display: flex;
+  gap: 45px;
+  align-items: center;
 }
 
 .brand {
@@ -100,11 +109,6 @@ ul {
   margin-top: 12px;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 34px;
-}
 
 nav a {
   font-family: "Fraunces", serif;
@@ -141,6 +145,13 @@ nav a:hover {
   text-shadow:
     0 0 20px rgba(255,250,242,.95),
     0 0 35px rgba(255,250,242,.75);
+}
+.brand {
+  margin-right: 40px;
+}
+
+.hero-nav .btn {
+  margin-left: 40px;
 }
 
 /* BUTTONS */
