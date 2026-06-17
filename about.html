@@ -1,21 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>About | Lauryn Malone</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Inter:wght@400;500;600&family=Allura&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/laurynmalone.github.io/style.css?v=10">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/laurynmalone.github.io/style.css?v=101">
 </head>
 
 <body>
 
-<header>
-  <div class="nav">
+<section class="home-hero-top about-hero">
+
+  <header class="hero-nav">
     <a class="brand" href="index.html">
       <div class="script">Lauryn Malone</div>
       <div class="sub">boy mom • author • educator</div>
@@ -32,64 +34,53 @@
     </nav>
 
     <a class="btn primary" href="contact.html">Invite Me</a>
+  </header>
+
+</section>
+
+<section class="torn-paper-divider">
+  <img src="torn edge.png" alt="">
+</section>
+
+<main class="home-paper">
+
+  <div class="eyebrow">
+    <span class="dot"></span>
+    about the author
+    <span class="dot"></span>
   </div>
-</header>
 
-<main class="wrap">
+  <h1>About Lauryn</h1>
 
-  <section class="page-layout about-page">
+  <p class="lead">
+    I write theology with its feet on the floor for everyday faithfulness in real life.
+  </p>
 
-    <div class="page-hero">
-      <div class="hero-text">
-        <div class="eyebrow">
-          <span class="dot"></span>
-          about the author
-          <span class="dot"></span>
-        </div>
+  <section class="about-grid">
 
-        <h1>About Lauryn</h1>
-
-        <p class="lead">
-          I write theology with its feet on the floor for everyday faithfulness in real life.
-        </p>
-      </div>
+    <div class="photoCard">
+      <img src="headshot.png" alt="Lauryn Malone">
     </div>
 
-    <div class="paper-body">
+    <div class="about-card">
 
-      <section class="grid2">
+      <p>
+        I’m Lauryn Malone — a Christian writer, curriculum developer, worship leader, and everyday mom. I live in Alabama with my husband and our three boys, which means most of my quiet moments are… not quiet at all.
+      </p>
 
-        <div class="card block">
-          <p>
-            I’m Lauryn Malone — a Christian writer, curriculum developer, worship leader, and everyday mom.
-            I live in Alabama with my husband and our three boys, which means most of my quiet moments are… not quiet at all.
-          </p>
+      <p>
+        By day, I write for a Christian homeschool curriculum company, building biblically grounded lessons that help families engage Scripture thoughtfully and faithfully. In the local church, I’ve spent years teaching Bible studies, leading worship, and coordinating events.
+      </p>
 
-          <p>
-            By day, I write for a Christian homeschool curriculum company, building biblically grounded lessons that help families
-            engage Scripture thoughtfully and faithfully. And in the local church, I’ve spent years teaching Bible studies,
-            leading worship, and coordinating events.
-          </p>
+      <p>
+        Those roles have shaped one steady conviction: worship isn’t confined to music or gatherings. It’s embodied allegiance. Humility. Daily obedience. Choosing truth when emotions are loud and surrender when you'd rather stay in control.
+      </p>
 
-          <p>
-            Those roles have shaped one steady conviction: worship isn’t confined to music or gatherings.
-            It’s embodied allegiance. Humility. Daily obedience. Choosing truth when emotions are loud, and surrender when you’d rather stay in control.
-          </p>
+      <hr>
 
-          <div class="divider"></div>
-
-          <p>
-            My writing explores worship as surrender, identity anchored in Christ, and sanctification as a steady, lived process —
-            not a polished performance. A lot of my theology gets tested and refined in ordinary life: kitchens, cars,
-            and conversations that require repentance, patience, and grace.
-          </p>
-        </div>
-
-        <div class="photoCard">
-          <img src="headshot.png" alt="Lauryn Malone headshot">
-        </div>
-
-      </section>
+      <p>
+        My writing explores worship as surrender, identity anchored in Christ, and sanctification as a steady, lived process—not a polished performance. A lot of my theology gets tested and refined in ordinary life: kitchens, cars, and conversations that require repentance, patience, and grace.
+      </p>
 
     </div>
 
@@ -98,18 +89,12 @@
 </main>
 
 <footer>
-  <div class="wrap">
-    <div class="foot">
-      <div>© <span id="y"></span> Lauryn Malone</div>
-      <div class="links">
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </div>
+  <p>© <span id="y"></span> Lauryn Malone</p>
 </footer>
 
 <script>
-  document.getElementById("y").textContent = new Date().getFullYear();
+  document.getElementById("y").textContent =
+    new Date().getFullYear();
 </script>
 
 </body>
