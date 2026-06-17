@@ -41,8 +41,9 @@ ul {
 
 /* TOP IMAGE HERO */
 
-.home-hero-top {
-  min-height: 560px;
+.home-hero-top{
+  min-height:650px;
+}
 
   background:
     linear-gradient(
@@ -65,7 +66,7 @@ ul {
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 42px 70px 0;
+  padding-top:60px;
 
   display: flex;
   align-items: flex-start;
