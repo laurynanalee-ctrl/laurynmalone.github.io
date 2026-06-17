@@ -148,13 +148,8 @@ nav a:hover {
 
 .home-paper {
   position: relative;
-  margin-top: 0;
-  background:
-    radial-gradient(circle at 20% 10%, rgba(216, 198, 238, 0.12), transparent 32%),
-    radial-gradient(circle at 85% 60%, rgba(97, 113, 82, 0.10), transparent 35%),
-    var(--paper);
-
-  padding: 88px 7% 90px;
+  background: #fffaf2;
+  padding: 90px 7% 90px;
   text-align: center;
 }
 
@@ -162,29 +157,19 @@ nav a:hover {
 
 .home-paper::before {
   content: "";
+
   position: absolute;
-  top: -42px;
+  top: -58px;
   left: 0;
+
   width: 100%;
-  height: 64px;
-  background: var(--paper);
+  height: 60px;
 
-  clip-path: polygon(
-    0% 0%, 100% 0%,
-    100% 18%, 97% 42%, 94% 28%, 91% 55%,
-    88% 35%, 85% 65%, 82% 45%, 79% 72%,
-    76% 38%, 73% 60%, 70% 30%, 67% 55%,
-    64% 40%, 61% 68%, 58% 45%, 55% 62%,
-    52% 34%, 49% 58%, 46% 42%, 43% 67%,
-    40% 35%, 37% 58%, 34% 40%, 31% 66%,
-    28% 36%, 25% 60%, 22% 42%, 19% 64%,
-    16% 38%, 13% 56%, 10% 33%, 7% 50%,
-    4% 30%, 0% 48%
-  );
+  background: url("torn edge.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 
-  filter:
-    drop-shadow(0 -3px 2px rgba(255,255,255,.75))
-    drop-shadow(0 -5px 5px rgba(0,0,0,.12));
+  z-index: 5;
 }
 
 /* EYEBROW */
