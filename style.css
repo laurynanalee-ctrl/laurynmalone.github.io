@@ -822,7 +822,7 @@ footer {
   text-align:center;
 
   font-family:"Fraunces",serif;
-  font-size:2rem;
+  font-size:1.45rem;
   font-weight:700;
   line-height:1.7;
 
@@ -889,7 +889,7 @@ footer {
 
   font-family:"Fraunces",serif;
 
-  font-size:2.1rem;
+  font-size:1.35rem;
   font-weight:700;
   line-height:1.65;
 
@@ -904,7 +904,7 @@ footer {
 
   display:block;
 
-  font-size:1.5rem;
+  font-size:1.35rem;
 
   color:#617152;
 
@@ -921,12 +921,12 @@ footer {
 
   .blog-post-full blockquote{
     padding:30px;
-    font-size:1.4rem;
+    font-size:1.25rem;
   }
 
   .blog-post-full .standout{
     padding:35px;
-    font-size:1.5rem;
+    font-size:1.05rem;
   }
 
   .blog-post-full blockquote::before{
