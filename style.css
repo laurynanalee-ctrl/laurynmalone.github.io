@@ -175,6 +175,20 @@ nav a:hover {
   z-index: 5;
 }
 
+.torn-paper-divider {
+  background: #fffaf2;
+  line-height: 0;
+}
+
+.torn-paper-divider img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  /* blends the white tear into the paper */
+  mix-blend-mode: multiply;
+}
+
 /* EYEBROW */
 
 .eyebrow {
