@@ -153,7 +153,7 @@ nav a:hover {
 /* PAPER BODY */
 
 .home-paper {
-  position: relative;
+  margin-top: 0;
   background: #fffaf2;
   padding: 90px 7% 90px;
   text-align: center;
@@ -179,16 +179,21 @@ nav a:hover {
 }
 
 .torn-paper-divider {
+  height: 65px;
+  overflow: hidden;
   background: #fffaf2;
   line-height: 0;
-  margin-top: -2px;
-  margin-bottom: -2px;
+  margin-top: -65px;
+  position: relative;
+  z-index: 5;
 }
 
 .torn-paper-divider img {
   width: 100%;
+  height: 65px;
+  object-fit: cover;
+  object-position: bottom;
   display: block;
-  mix-blend-mode: multiply;
 }
 
 /* EYEBROW */
