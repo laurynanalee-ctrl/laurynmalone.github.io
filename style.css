@@ -826,3 +826,106 @@ footer {
     text-align: center;
   }
 }
+
+.page-layout {
+  max-width: 1100px;
+  margin: 50px auto;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(74, 61, 53, 0.16);
+}
+
+.page-hero {
+  min-height: 430px;
+  padding: 80px 50px;
+  background:
+    linear-gradient(rgba(251,247,239,.72), rgba(251,247,239,.72)),
+    url("morning.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3f4638;
+}
+
+.hero-text {
+  max-width: 760px;
+}
+
+.page-hero h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1.1;
+  color: #3f4638;
+  margin-bottom: 20px;
+}
+
+.paper-body {
+  background: #fffaf2;
+  padding: 70px 55px;
+  position: relative;
+}
+
+.paper-body::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #fffaf2;
+  clip-path: polygon(
+    0% 70%, 5% 55%, 10% 72%, 15% 58%, 20% 74%,
+    25% 53%, 30% 66%, 35% 56%, 40% 72%, 45% 54%,
+    50% 67%, 55% 56%, 60% 76%, 65% 58%, 70% 70%,
+    75% 55%, 80% 73%, 85% 57%, 90% 68%, 95% 54%,
+    100% 70%, 100% 100%, 0% 100%
+  );
+}
+
+.card {
+  background: rgba(251, 247, 239, 0.9);
+  border: 1px solid rgba(127, 143, 114, 0.22);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(74, 61, 53, 0.08);
+}
+
+.standout {
+  text-align: center;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #4f6248;
+  margin: 45px 0;
+  padding: 30px;
+  background: rgba(216, 204, 230, 0.25);
+  border-radius: 18px;
+}
+
+blockquote {
+  background: rgba(251, 247, 239, 0.9);
+  border: 1px solid rgba(127, 143, 114, 0.25);
+  border-left: 5px solid #7f8f72;
+  padding: 28px;
+  border-radius: 14px;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  .page-hero {
+    min-height: 340px;
+    padding: 55px 24px;
+  }
+
+  .page-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .paper-body {
+    padding: 45px 24px;
+  }
+}
