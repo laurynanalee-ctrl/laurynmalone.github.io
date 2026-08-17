@@ -934,3 +934,126 @@ footer {
     top:-20px;
   }
 }
+/* ==========================================
+   AGED JOURNAL PAPER BACKGROUND
+========================================== */
+
+body {
+  position: relative;
+  background-color: #f7eddf;
+
+  background-image:
+
+    /* faint tear / water stains */
+    radial-gradient(
+      ellipse at 14% 20%,
+      rgba(150, 119, 83, 0.10) 0%,
+      rgba(150, 119, 83, 0.05) 8%,
+      transparent 19%
+    ),
+
+    radial-gradient(
+      ellipse at 84% 32%,
+      rgba(150, 119, 83, 0.08) 0%,
+      rgba(150, 119, 83, 0.03) 10%,
+      transparent 23%
+    ),
+
+    radial-gradient(
+      ellipse at 30% 79%,
+      rgba(130, 100, 74, 0.07) 0%,
+      transparent 18%
+    ),
+
+    /* subtle crinkles */
+    repeating-linear-gradient(
+      117deg,
+      transparent 0px,
+      transparent 95px,
+      rgba(80, 64, 48, 0.025) 97px,
+      transparent 100px
+    ),
+
+    repeating-linear-gradient(
+      23deg,
+      transparent 0px,
+      transparent 135px,
+      rgba(255,255,255,0.25) 138px,
+      transparent 142px
+    ),
+
+    /* overall paper variation */
+    linear-gradient(
+      135deg,
+      #fffaf2 0%,
+      #f8eddf 35%,
+      #fff8ee 68%,
+      #f3e4d4 100%
+    );
+
+  background-attachment: fixed;
+}
+
+
+/* soft aged vignette around the browser edges */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+
+  box-shadow:
+    inset 0 0 90px rgba(91, 70, 47, 0.11),
+    inset 0 0 20px rgba(91, 70, 47, 0.06);
+
+  mix-blend-mode: multiply;
+}
+
+
+/* give main page areas a slightly transparent paper feel */
+.home-paper,
+.about-card,
+.book-card,
+.book-cover-card,
+.blog-preview-card,
+.card {
+  background-color: rgba(255, 250, 242, 0.82);
+  backdrop-filter: blur(1px);
+}
+
+/* PAPER CREASES */
+
+main {
+  position: relative;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background:
+    linear-gradient(
+      83deg,
+      transparent 48%,
+      rgba(82, 65, 48, 0.025) 49%,
+      rgba(255,255,255,0.18) 50%,
+      transparent 51%
+    ),
+
+    linear-gradient(
+      172deg,
+      transparent 63%,
+      rgba(82, 65, 48, 0.02) 64%,
+      rgba(255,255,255,0.13) 65%,
+      transparent 66%
+    );
+}
+
+main > * {
+  position: relative;
+  z-index: 1;
+}
