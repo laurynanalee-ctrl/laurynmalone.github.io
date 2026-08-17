@@ -32,41 +32,89 @@
     </div>
 
     <div class="grid2">
-      <div class="card block">
-        <strong style="font-family:'Fraunces',serif; font-size:18px;">Send a message</strong>
-        <div class="divider"></div>
 
-        <form action="https://formspree.io/f/xpqjrvop" method="POST">
-          <input type="hidden" name="_subject" value="New website contact submission">
-          <input name="name" placeholder="Your name" required />
-          <input type="email" name="email" placeholder="Your email" required />
-          <input name="subject" placeholder="Subject" />
-          <textarea name="message" placeholder="Tell me what you’re thinking…" required></textarea>
-          <button class="btn primary" type="submit">Send</button>
-        </form>
-      </div>
+  <!-- CONTACT -->
+  <div class="card block contact-card">
+    <strong class="card-title">Send a message</strong>
+    <div class="divider"></div>
 
-      <div class="card block">
-        <strong style="font-family:'Fraunces',serif; font-size:18px;">Follow along</strong>
-        <p class="meta">Come say hi.</p>
-        <div class="divider"></div>
-<div class="links social">
-  <a href="https://www.instagram.com/lauryn_analee/" target="_blank" rel="noopener">Follow me on Instagram</a>
+    <form class="contact-form"
+          action="https://formspree.io/f/xpqjrvop"
+          method="POST">
 
-  <a href="https://www.facebook.com/laurynanalee.daniel" target="_blank" rel="noopener">Find me on Facebook</a>
+      <input type="hidden"
+             name="_subject"
+             value="New website contact submission">
 
-  <a href="https://www.tiktok.com/@lauryn_analee?is_from_webapp=1&sender_device=pc"
-     target="_blank"
-     rel="noopener">
-     Watch me on TikTok
-  </a>
-</div>
+      <input name="name"
+             placeholder="Your name"
+             required>
 
-        <div class="divider"></div>
+      <input type="email"
+             name="email"
+             placeholder="Your email"
+             required>
 
-        <script async data-uid="f02aab0e30" src="https://lauryn-malone.kit.com/f02aab0e30/index.js"></script>
-      </div>
+      <input name="subject"
+             placeholder="Subject">
+
+      <textarea name="message"
+                placeholder="Tell me what you’re thinking…"
+                required></textarea>
+
+      <button class="btn primary" type="submit">
+        Send
+      </button>
+    </form>
+  </div>
+
+
+  <!-- FOLLOW + NEWSLETTER -->
+  <div class="card block follow-card">
+
+    <strong class="card-title">Follow along</strong>
+    <p class="meta">Come say hi.</p>
+
+    <div class="social">
+      <a href="https://www.instagram.com/lauryn_analee/"
+         target="_blank"
+         rel="noopener">
+        Instagram
+      </a>
+
+      <a href="https://www.facebook.com/laurynanalee.daniel"
+         target="_blank"
+         rel="noopener">
+        Facebook
+      </a>
+
+      <a href="https://www.tiktok.com/@lauryn_analee"
+         target="_blank"
+         rel="noopener">
+        TikTok
+      </a>
     </div>
+
+    <div class="divider"></div>
+
+    <div class="newsletter-area">
+      <strong class="card-title">Stay in the Loop</strong>
+
+      <p class="meta">
+        Faith, life, and the things God is teaching me along the way—
+        straight to your inbox.
+      </p>
+
+      <script
+        async
+        data-uid="f02aab0e30"
+        src="https://lauryn-malone.kit.com/f02aab0e30/index.js">
+      </script>
+    </div>
+
+  </div>
+
+</div>
   </section>
 </main>
 
