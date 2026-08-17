@@ -1341,3 +1341,19 @@ main.wrap {
 .newsletter-area .formkit-powered-by-convertkit-container {
   display: none !important;
 }
+
+footer {
+  width: 100%;
+  clear: both;
+  margin-top: 0;
+}
+
+footer .wrap {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+.foot {
+  justify-content: center;
+  gap: 25px;
+}
