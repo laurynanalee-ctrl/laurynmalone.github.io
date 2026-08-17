@@ -1269,3 +1269,75 @@ main.wrap {
     gap: 10px;
   }
 }
+
+/* ==========================================
+   KIT NEWSLETTER CLEANUP
+========================================== */
+
+.newsletter-area {
+  margin-top: 20px;
+}
+
+.newsletter-area .formkit-form {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.newsletter-area .formkit-header,
+.newsletter-area .formkit-subheader {
+  display: none !important;
+}
+
+.newsletter-area .formkit-fields {
+  display: grid !important;
+  gap: 12px !important;
+}
+
+.newsletter-area .formkit-field {
+  margin: 0 !important;
+}
+
+.newsletter-area input {
+  width: 100% !important;
+  padding: 14px 16px !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(65,52,41,.18) !important;
+  background: rgba(255,255,255,.65) !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.newsletter-area button {
+  width: 100% !important;
+  padding: 14px 20px !important;
+  border: none !important;
+  border-radius: 999px !important;
+
+  background: var(--sage) !important;
+  color: white !important;
+
+  font-family: "Fraunces", serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+
+  cursor: pointer !important;
+}
+
+.newsletter-area button:hover {
+  background: var(--sage-dark) !important;
+}
+
+.newsletter-area .formkit-guarantee {
+  font-size: 12px !important;
+  color: var(--muted) !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+/* Hide Kit badge */
+.newsletter-area .formkit-powered-by-convertkit-container {
+  display: none !important;
+}
