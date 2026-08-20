@@ -1061,10 +1061,6 @@ main > * {
 /* ==========================================
    CONTACT PAGE
 ========================================== */
-.contact-page {
-  height: auto !important;
-  min-height: 100vh !important;
-}
 
 .wrap {
   width: min(1100px, 90%);
